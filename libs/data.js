@@ -10,4 +10,4 @@ var dataSchema = new mongoose.Schema(
   { collation: 'data' }
 )
 
-export default mongoose.models.dataSchema || mongoose.model('data', dataSchsema)
+export default mongoose.models.dataSchema || mongoose.model('data', dataSchema)
